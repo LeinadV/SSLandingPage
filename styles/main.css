@@ -1,6 +1,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-size: 18px;
 }
 
 #banner {
@@ -19,7 +20,9 @@ html, body {
         background-attachment: scroll;
     }
 }
-
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
 #banner-fg {
     height: 100%;
     text-align: center;
