@@ -10,7 +10,7 @@ html, body {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/night.jpg");
     background-attachment: fixed;
 }
 
@@ -23,7 +23,7 @@ html, body {
 #banner-fg {
     height: 100%;
     text-align: center;
-    background-color: rgba(26, 79, 134, 0.61)
+    background-color: rgba(0, 0, 0, 0.79);
 }
 
 .banner-text {
@@ -35,13 +35,8 @@ html, body {
     color: white;
 }
 
-.logo-first {
-    color: #5cb85c;
-    font-weight: bold;
-}
-
-.logo-last {
-    color: #0275d8;
+.logo {
+    color: #267DFE;
     font-weight: bold;
 }
 
