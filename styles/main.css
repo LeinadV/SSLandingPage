@@ -10,7 +10,7 @@ html, body {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/night.jpg");
+    background-image: url("../images/galaxy.jpeg");
     background-attachment: fixed;
 }
 
@@ -23,12 +23,16 @@ html, body {
 #banner-fg {
     height: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.79);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .banner-text {
     text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.7);
     color: #fff;
+}
+.title-text{
+  font-size: 7em;
+  margin-left: auto;
 }
 
 #banner-fg a:active {
