@@ -12,6 +12,7 @@ html, body {
     -o-background-size: cover;
     background-position: center;
     background-image: url("../images/galaxy.jpeg");
+    /*background-image: url("http://ansi.loli.tw/ansiarts/4595.png");*/
     background-attachment: fixed;
 }
 
