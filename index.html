@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="styles/main.css">
     
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/animate.css">
     <title>Starlist</title>
 </head>
 
-<body data-spy="scroll" data-target="#nav">
+<body data-spy="scroll" data-target="#nav">    
     <nav class="navbar fixed-top navbar-toggleable navbar-inverse bg-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,10 +46,10 @@
         <div id="banner-fg" class="d-flex flex-column  justify-content-between">
             <div></div>
             <div>
-                <h1 class="display-3 banner-text">Starlist</h1>
-                <h2 class="lead banner-text">A todo list you never seen before. </h2>
+                <h1 class="display-3 banner-text wow fadeIn" data-wow-duration="1.5s"  data-wow-delay="1.5s" >Starlist</h1>
+                <h2 class="lead banner-text wow fadeIn" data-wow-duration="1.5s"  data-wow-delay="1.8s" >A todo list you never seen before. </h2>
                 <br>
-                <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd2OJGE3lJKmSOPsqbew6MTesBMI_bviBhGw9IrOPe3r7zPwg/viewform"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Stay Tuned</a>
+                <a class="btn btn-primary wow fadeIn" target="_blank" data-wow-duration="1.5s"  data-wow-delay="5.1s" href="https://docs.google.com/forms/d/e/1FAIpQLSd2OJGE3lJKmSOPsqbew6MTesBMI_bviBhGw9IrOPe3r7zPwg/viewform"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Stay Tuned</a>
             </div>
             <h2 class="banner-text">
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -69,7 +70,7 @@
                 <section>
                     <h2 id="feature" class="display-4">In This APP</h2>
 
-                    <div class="row flex-sm-row-reverse justify-content-center align-items-center">
+                    <div data-wow-duration="1s" class="wow slideInLeft row flex-sm-row-reverse justify-content-center align-items-center">
                         <p class="col-12 col-sm-6 col-md-5">
                             <span class="font-weight-bold">Create</span><br>List every things todo. Also sync with Google Calendar.
                         </p>
@@ -78,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="row justify-content-center align-items-center">
+                    <div data-wow-duration="1s" class="wow slideInRight row justify-content-center align-items-center">
                         <p class="col-12 col-sm-6 col-md-5">
                             <span class="font-weight-bold">Connect</span><br>Set deadline and emergency level for each todo, and it becomes a star.
                         </p>
@@ -86,8 +87,7 @@
                             <img class="img-fluid" src="images/use-case-2.png">
                         </div>
                     </div>
-
-                    <div class="row flex-sm-row-reverse justify-content-center align-items-center">
+                    <div data-wow-duration="1s" class="wow slideInLeft row flex-sm-row-reverse justify-content-center align-items-center">
                         <p class="col-12 col-sm-6 col-md-5">
                             <span class="font-weight-bold">Enjoy</span><br>Every completed work lights a twinkle star on the gloomy night.<br>Or, a star pass away forever.
                         </p>
@@ -95,8 +95,7 @@
                             <img class="img-fluid" src="images/use-case-3.png">
                         </div>
                     </div>
-
-                    <div class="row justify-content-center align-items-center">
+                    <div data-wow-duration="1s" class="wow slideInRight row justify-content-center align-items-center">
                         <p class="col-12 col-sm-6 col-md-5">
                             Brighten the faint night and your daily life.
                         </p>
@@ -141,7 +140,7 @@
                     <h2 class="display-4">It's Free for Now!</h2>
                     <p>Please help us improve by taking a 30sec survey. Your feedback is highly appreciated, and, to express our thankfulness, we will send you <strong>TWO redeem codes</strong> for downloading the app for free afterward.</p>
                     <br>
-                    <a class="btn btn-success btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSd2OJGE3lJKmSOPsqbew6MTesBMI_bviBhGw9IrOPe3r7zPwg/viewform" ><i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
+                    <a class="btn btn-success btn-lg" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd2OJGE3lJKmSOPsqbew6MTesBMI_bviBhGw9IrOPe3r7zPwg/viewform" ><i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
                 </section>
             </div>
         </div>
@@ -157,8 +156,9 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
     <script src="scripts/main.js"></script>
+    <script src="scripts/wow/dist/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 
 </html>
